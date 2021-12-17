@@ -1,6 +1,6 @@
 {
   "name": "rp-date-range-picker",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "A material design daterange picker",
   "main": "dist/rp-date-range-picker.cjs.js",
   "module": "dist/rp-date-range-picker.es.js",
