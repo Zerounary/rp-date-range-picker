@@ -63,7 +63,7 @@
     "husky": "^0.14.3",
     "jest": "^23.6.0",
     "lint-staged": "^6.1.0",
-    "node-sass": "^4.14.1",
+    "node-sass": "^6.0.1",
     "prettier": "^1.10.2",
     "rollup-plugin-vue": "^4.7.2",
     "sass-loader": "^7.1.0",
