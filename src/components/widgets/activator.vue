@@ -14,7 +14,7 @@ export default {
       value: String,
       label: {
         type: String,
-        default: "Select Date"
+        default: ""
       }
   },
   computed: {

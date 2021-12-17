@@ -36,7 +36,7 @@
           @hoverDate="hoverDate"
           @clickYearSelect="clickYearSelect"
         ></calendar>
-        <calendar
+        <!-- <calendar
           class="calendar right"
           location="right"
           :calendar-month="rightCalendarMonth_"
@@ -50,7 +50,7 @@
           @dateClick="dateClick"
           @hoverDate="hoverDate"
           @clickYearSelect="clickYearSelect"
-        ></calendar>
+        ></calendar> -->
       </div>
     </transition>
   </div>

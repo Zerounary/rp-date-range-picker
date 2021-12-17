@@ -14,28 +14,28 @@ function getRange (startOffset = 0, endOffset = 0, period = 'day') {
 }
 
 export const defaultPresets = [
-  {
-    label: 'Today',
-    range: getRange(0, 0),
-  },
-  {
-    label: 'Yesterday',
-    range: getRange(1, 1),
-  },
-  {
-    label: 'Last 7 Days',
-    range: getRange(6, 0),
-  },
-  {
-    label: 'Last 30 Days',
-    range: getRange(29, 0),
-  },
-  {
-    label: 'This Month',
-    range: getRange(0, 0, 'month'),
-  },
-  {
-    label: 'Last Month',
-    range: getRange(1, 1, 'month'),
-  },
+  // {
+  //   label: 'Today',
+  //   range: getRange(0, 0),
+  // },
+  // {
+  //   label: 'Yesterday',
+  //   range: getRange(1, 1),
+  // },
+  // {
+  //   label: 'Last 7 Days',
+  //   range: getRange(6, 0),
+  // },
+  // {
+  //   label: 'Last 30 Days',
+  //   range: getRange(29, 0),
+  // },
+  // {
+  //   label: 'This Month',
+  //   range: getRange(0, 0, 'month'),
+  // },
+  // {
+  //   label: 'Last Month',
+  //   range: getRange(1, 1, 'month'),
+  // },
 ];
