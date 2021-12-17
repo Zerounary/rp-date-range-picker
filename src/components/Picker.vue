@@ -58,6 +58,7 @@
 
 <script>
 import moment from 'moment';
+moment.locale('zh');
 import Calendar from './Calendar.vue';
 import CalendarRanges from './Ranges.vue';
 import DefaultActivator from './widgets/activator.vue';
