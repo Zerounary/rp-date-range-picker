@@ -67,7 +67,7 @@ import clickoutside from '../directives/clickoutside';
 import { defaultPresets } from '../constant/index.js';
 
 export default {
-  name: 'v-md-date-range-picker',
+  name: 'rp-date-range-picker',
   components: { Calendar, CalendarRanges, DefaultActivator },
   directives: { clickoutside },
   provide () {
