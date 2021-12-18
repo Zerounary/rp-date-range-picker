@@ -10,14 +10,20 @@ $barColor:  #4285f4;
 .mdrp__activator .activator-wrapper {
   position:relative;
 
+  .icon_calendar{
+    position: absolute;
+    top: 8px;
+  }
+
   .text-field 				{
-    display: block;
+    display: inline-block;
     font-size: 18px;
-    padding: 4px 10px 10px 5px;
-    width: 300px;
+    padding: 10px 0px 10px 5px;
+    width: 100%;
+    text-align: center;
     border: none;
     border-bottom: 1px solid #757575;
-
+    color: #666;
     &:focus { outline: none; }
   }
 
@@ -68,6 +74,6 @@ $barColor:  #4285f4;
   /* active state */
   .text-field:focus ~ .bar:before,
   .text-field:focus ~ .bar:after {
-    width: 50%;
+    width: 100%;
   }
 }

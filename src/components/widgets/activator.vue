@@ -1,5 +1,6 @@
 <template>
   <div class="activator-wrapper">
+    <calendar class="icon_calendar" theme="outline" size="24" fill="#666"/>
     <input v-bind="$attrs" class="text-field" :class="inputClass" type="text" :value="value">
     <span v-if="picker.showActivatorBar" class="bar"></span>
     <label v-if="picker.showActivatorLabel">{{ label }}</label>
@@ -7,6 +8,9 @@
 </template>
 
 <script>
+import {Calendar} from '@icon-park/vue'
+import '@icon-park/vue/styles/index.css';
+
 export default {
   inheritAttrs: false,
   inject: ['picker'],
@@ -23,6 +27,9 @@ export default {
         'text-field__filled': this.value.trim().length > 0,
       };
     },
+  },
+  components: {
+    Calendar,
   },
 };
 </script>
