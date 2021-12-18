@@ -1,6 +1,6 @@
 <template>
   <div class="activator-wrapper">
-    <calendar class="icon_calendar" theme="outline" size="24" fill="#666"/>
+    <calendar class="icon_calendar" theme="outline" size="16" fill="#666"/>
     <input v-bind="$attrs" class="text-field" :class="inputClass" type="text" :value="value">
     <span v-if="picker.showActivatorBar" class="bar"></span>
     <label v-if="picker.showActivatorLabel">{{ label }}</label>
